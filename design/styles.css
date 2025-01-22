@@ -24,6 +24,13 @@ body {
   box-sizing: border-box;
 }
 
+.qr-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .qr-code img {
   width: 288px;
   height: 288px;
