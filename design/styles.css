@@ -20,6 +20,7 @@ body {
     width: 320px;
     text-align: center;
     overflow: hidden;
+    padding: 20px;
   }
   
   .qr-code img {
