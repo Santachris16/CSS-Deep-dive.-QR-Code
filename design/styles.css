@@ -11,6 +11,17 @@ body {
     align-items: center;
     min-height: 100vh;
   }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  width: 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: 20px;
+}
   
 .card {
   background-color: hsl(0, 0%, 100%);
@@ -32,8 +43,8 @@ body {
 }
 
 .qr-code img {
-  width: 288px;
-  height: 288px;
+  width: 278px;
+  height: 278px;
   display: block;
   margin: 0 auto;
 }
