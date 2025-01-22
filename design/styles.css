@@ -12,23 +12,24 @@ body {
     min-height: 100vh;
   }
   
-  /* Card Container */
-  .card {
-    background-color: hsl(0, 0%, 100%); 
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 320px;
-    text-align: center;
-    overflow: hidden;
-    padding: 20px;
-  }
-  
-  .qr-code img {
-    width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-  }
-  
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+.qr-code img {
+  width: 288px;
+  height: 288px;
+  display: block;
+  margin: 0 auto;
+}
   .text {
     padding: 20px;
   }
